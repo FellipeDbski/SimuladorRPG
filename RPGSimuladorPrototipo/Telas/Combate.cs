@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RPGSimuladorPrototipo
+namespace RPGSimuladorPrototipo.Telas
 {
-    public partial class Form1 : Form
+    public partial class Combate : Form
     {
-        public Form1()
+        public Combate()
         {
             InitializeComponent();
+        }
+
+        private void Combate_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
