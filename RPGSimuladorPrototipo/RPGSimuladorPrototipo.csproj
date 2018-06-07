@@ -45,13 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Jogo\Equipamento\Equipamentos\Armas.cs" />
-    <Compile Include="Jogo\Equipamento\Equipamentos\Armadura.cs" />
-    <Compile Include="Jogo\Personagem\Atributos.cs" />
-    <Compile Include="Jogo\Personagem\Classes\BaseCriacao\Classe.cs" />
-    <Compile Include="Jogo\Equipamento\Equipamentos\TipoArma.cs" />
-    <Compile Include="Jogo\Equipamento\Equipamentos\TipoArmadura.cs" />
-    <Compile Include="Jogo\Personagem\Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Telas\Combate.cs">
@@ -97,9 +90,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Jogo\Equipamento\Armaduras\" />
-    <Folder Include="Lógica\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGSimuladorPrototipo.Jogo.Personagem
+namespace RPGSimuladorPrototipo.Jogo.Personagem.Classes
 {
-    public class Atributos
+    public enum EnumLadoDominante
     {
-        public int ID { get; set; }
+        Direito,
+        Esquerdo
     }
 }
