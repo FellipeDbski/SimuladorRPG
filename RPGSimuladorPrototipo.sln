@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGSimuladorPrototipo", "RP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesUnitarios", "TestesUnitarios\TestesUnitarios.csproj", "{C183C249-3510-4FDB-A143-7C47E3BFAE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{106CF710-0EDC-410C-92F6-D8237C82084E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{106CF710-0EDC-410C-92F6-D8237C82084E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{04F27419-BEEE-4FCD-8E49-C75A0830FD93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAO", "DAO\DAO.csproj", "{04F27419-BEEE-4FCD-8E49-C75A0830FD93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itens", "Itens\Itens.csproj", "{5E23EDBE-B3C2-468F-BC05-ABAA57129824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,22 @@ Global
 		{04F27419-BEEE-4FCD-8E49-C75A0830FD93}.Release|x64.Build.0 = Release|Any CPU
 		{04F27419-BEEE-4FCD-8E49-C75A0830FD93}.Release|x86.ActiveCfg = Release|Any CPU
 		{04F27419-BEEE-4FCD-8E49-C75A0830FD93}.Release|x86.Build.0 = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|ARM.Build.0 = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|x64.Build.0 = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|ARM.Build.0 = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|x64.ActiveCfg = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|x64.Build.0 = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E23EDBE-B3C2-468F-BC05-ABAA57129824}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,8 +9,6 @@ namespace RPGSimuladorPrototipo.Jogo.Personagem
 {
     public class Classe
     {
-        public int ID { get; set; }
-
         public string Nome { get; }
 
         public TipoArma Arma { get; }

@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Classe.cs" />
+    <Compile Include="Classes\Milicias.cs" />
+    <Compile Include="Equipamento\Armaduras\BaseArmadura\Armadura.cs" />
+    <Compile Include="Equipamento\Armaduras\BaseArmadura\TipoArmadura.cs" />
+    <Compile Include="Equipamento\Arsenal\BaseArsenal\Armas.cs" />
+    <Compile Include="Equipamento\Arsenal\BaseArsenal\TipoArma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Telas\Combate.cs">
@@ -90,6 +96,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Equipamento\Armaduras\Couro\" />
+    <Folder Include="Equipamento\Armaduras\Couro_Metal\" />
+    <Folder Include="Equipamento\Armaduras\Metais_Pesados\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

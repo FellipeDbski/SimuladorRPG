@@ -9,11 +9,15 @@ namespace RPGSimuladorPrototipo.Jogo
 {
     public class Armas
     {
-        private int ID { get; }
-
         public string Nome { get; } 
 
         public TipoArma Tipo { get; }
+
+        public string Descriao { get; set; }
+
+        public byte[] Foto { get; set; }
+
+        public long Tamanho { get; set; }
 
         public int Dano { get; }
 

@@ -9,8 +9,6 @@ namespace RPGSimuladorPrototipo.Jogo.Equipamento.NaoAlterar
 {
     public class Armadura
     {
-        private int ID { get; }
-
         public string Nome { get; }
 
         public TipoArmadura Tipo { get; }
