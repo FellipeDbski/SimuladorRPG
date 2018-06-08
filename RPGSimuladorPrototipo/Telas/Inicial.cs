@@ -16,5 +16,10 @@ namespace RPGSimuladorPrototipo.Telas
         {
             InitializeComponent();
         }
+
+        private void Inicial_Load(object sender, EventArgs e)
+        {
+          
+        }
     }
 }

@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Equipamento\Armaduras\Couro\" />
+    <Folder Include="Equipamento\Armaduras\Couro_Metal\" />
+    <Folder Include="Equipamento\Armaduras\Metais_Pesados\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RPGSimuladorPrototipo\RPGSimuladorPrototipo.csproj" />
+  </ItemGroup>
+
 </Project>
