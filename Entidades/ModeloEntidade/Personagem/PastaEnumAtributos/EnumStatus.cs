@@ -13,6 +13,7 @@ namespace RPGSimuladorPrototipo.Jogo.Personagem.PastaEnumAtributos
         Desmembrado,
         Envenenado,
         Queimando,
+        Psicótico,
         Morto
     }
 }

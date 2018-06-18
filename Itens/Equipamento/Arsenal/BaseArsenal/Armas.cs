@@ -37,9 +37,13 @@ namespace RPGSimuladorPrototipo.Jogo
             _Descriao = descricao;
         }
 
-        public void DetalhaArmamento(string path, int dano, double peso)
+        public void ControladorImagem(string path)
         {
             _CaminhoImagem = path;
+        }
+
+        public void FormulaDano(int dano, int peso)
+        {
             _Dano = dano;
             _Peso = peso;
         }

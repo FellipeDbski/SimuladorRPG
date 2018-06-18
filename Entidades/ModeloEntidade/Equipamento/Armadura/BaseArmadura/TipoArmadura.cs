@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGSimuladorPrototipo.Jogo.Personagem.Classes.NaoAlterar
+namespace RPGSimuladorPrototipo.Jogo.Personagem.Classes
 {
     public enum TipoArmadura
     {

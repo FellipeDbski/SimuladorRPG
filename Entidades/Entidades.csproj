@@ -4,15 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Classes\Classes.csproj" />
-    <ProjectReference Include="..\Itens\Itens.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ModeloEntidade\Equipamento\Armaduras\Couro\" />
-    <Folder Include="ModeloEntidade\Equipamento\Armaduras\Couro_Metal\" />
-    <Folder Include="ModeloEntidade\Equipamento\Armaduras\Metais_Pesados\" />
-  </ItemGroup>
-
 </Project>

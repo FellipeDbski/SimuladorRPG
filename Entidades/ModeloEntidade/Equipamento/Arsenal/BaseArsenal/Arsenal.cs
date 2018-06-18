@@ -1,6 +1,5 @@
 ﻿using Itens.Equipamento.Arsenal;
 using Itens.Equipamento.Arsenal.BaseArsenal;
-using RPGSimuladorPrototipo.Jogo.Personagem.Classes.NaoAlterar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RPGSimuladorPrototipo.Jogo
 {
-    public class Armas
+    public class Arsenal
     {
         public int ID { get; set; }
 
