@@ -34,6 +34,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.4.0.1044, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.4.0.1044\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -85,6 +94,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,7 +104,47 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Rondel.png" />
+    <Resource Include="Texturas\Rondel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\..\texturas\5dc25e72489f4d7db22354dbb02a9d5c.jpg">
+      <Link>Texturas\5dc25e72489f4d7db22354dbb02a9d5c.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\68740133-texture-wallpapers.jpg">
+      <Link>Texturas\68740133-texture-wallpapers.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\jeans.jpg">
+      <Link>Texturas\jeans.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\loco.jpg">
+      <Link>Texturas\loco.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\rough wood.jpg">
+      <Link>Texturas\rough wood.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\Seamless_dirt_texture_by_hhh316.jpg">
+      <Link>Texturas\Seamless_dirt_texture_by_hhh316.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\texturas\Untitled.png">
+      <Link>Texturas\Untitled.png</Link>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\german.png" />
+    <Resource Include="Icons\ic_05060.png" />
+    <Resource Include="Icons\knight.png" />
+    <Resource Include="Icons\mongol.png" />
+    <Resource Include="Icons\persian.jpg" />
+    <Resource Include="Icons\roman.png" />
+    <Resource Include="Icons\roman2hand.png" />
+    <Resource Include="Icons\tribe.png" />
+    <Resource Include="Icons\viking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{106cf710-0edc-410c-92f6-d8237c82084e}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
